@@ -1,5 +1,3 @@
----
-
 # Introduction to Node.js
 
 ## What is Node.js
@@ -18,9 +16,9 @@ A <span style="color:#e74c3c"><b>runtime environment</b></span> is the environme
 
 JavaScript usually runs in <span style="color:#3498db"><b>web browsers</b></span> like:
 
-* Chrome
-* Firefox
-* Edge
+- Chrome  
+- Firefox  
+- Edge  
 
 But <span style="color:#2ecc71"><b>Node.js allows JavaScript to run outside the browser</b></span>, such as on a <span style="color:#9b59b6"><b>server or local machine</b></span>.
 
@@ -34,9 +32,9 @@ The <span style="color:#e67e22"><b>V8 Engine</b></span> is a JavaScript engine d
 
 The V8 engine:
 
-* Compiles JavaScript into <span style="color:#2ecc71"><b>machine code</b></span>
-* Executes the code very <span style="color:#3498db"><b>fast</b></span>
-* Uses <span style="color:#9b59b6"><b>Just-In-Time (JIT) compilation</b></span> for better performance
+- Compiles JavaScript into <span style="color:#2ecc71"><b>machine code</b></span>  
+- Executes the code very <span style="color:#3498db"><b>fast</b></span>  
+- Uses <span style="color:#9b59b6"><b>Just-In-Time (JIT) compilation</b></span> for better performance  
 
 Node.js uses the <span style="color:#e67e22"><b>Chrome V8 Engine</b></span> to run JavaScript.
 
@@ -48,9 +46,9 @@ Node.js uses the <span style="color:#e67e22"><b>Chrome V8 Engine</b></span> to r
 
 This means:
 
-* Developers can <span style="color:#9b59b6"><b>view</b></span> the code
-* Developers can <span style="color:#e67e22"><b>modify</b></span> the code
-* Developers can <span style="color:#1abc9c"><b>contribute</b></span> to the project
+- Developers can <span style="color:#9b59b6"><b>view</b></span> the code  
+- Developers can <span style="color:#e67e22"><b>modify</b></span> the code  
+- Developers can <span style="color:#1abc9c"><b>contribute</b></span> to the project  
 
 ---
 
@@ -60,9 +58,9 @@ Node.js is <span style="color:#2ecc71"><b>cross-platform</b></span>, which means
 
 Supported platforms include:
 
-* Windows
-* macOS
-* Linux
+- Windows  
+- macOS  
+- Linux  
 
 ---
 
@@ -70,22 +68,22 @@ Supported platforms include:
 
 Node.js is used to build:
 
-* Web servers
-* APIs
-* Real-time applications
-* Streaming apps
-* Chat applications
+- Web servers  
+- APIs  
+- Real-time applications  
+- Streaming apps  
+- Chat applications  
 
 Examples:
 
-* Netflix
-* PayPal
-* Uber
-* Trello
+- Netflix  
+- PayPal  
+- Uber  
+- Trello  
 
 ---
 
-## Key Features of Node.js
+# Key Features of Node.js
 
 ### 1. Asynchronous and Non-Blocking
 
@@ -113,8 +111,6 @@ Node.js uses a <span style="color:#e74c3c"><b>single-threaded event loop archite
 
 Node.js provides <span style="color:#2ecc71"><b>built-in modules</b></span> that help developers perform common tasks.
 
-Examples:
-
 | Module | Use |
 |------|------|
 | fs | File system operations |
@@ -126,16 +122,16 @@ Examples:
 Example:
 
 ```js
-const fs = require('fs');
+const fs = require("fs");
 
-fs.readFile('file.txt', 'utf8', (err, data) => {
+fs.readFile("file.txt", "utf8", (err, data) => {
     console.log(data);
 });
-````
+```
 
 ---
 
-## 🚀 Simple Node.js Server Example
+# Simple Node.js Server Example
 
 ```javascript
 const http = require("http");
@@ -148,15 +144,15 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
     console.log("Server running on port 3000");
 });
-````
+```
 
-📌 After running the file, open your browser and visit:
+After running the file, open your browser and visit:
 
-👉 **[http://localhost:3000](http://localhost:3000)**
+**http://localhost:3000**
 
 ---
 
-# ⚠️ Node.js is Not a Programming Language
+# Node.js is Not a Programming Language
 
 <span style="color:#e74c3c"><b>Node.js is NOT a programming language.</b></span>
 
@@ -164,9 +160,9 @@ It is a <span style="color:#2ecc71"><b>JavaScript runtime environment</b></span>
 
 This means developers can use JavaScript to build:
 
-* 🌐 Web servers
-* 🔗 APIs
-* 💬 Real-time applications
-* ⚡ Backend services
+- Web servers  
+- APIs  
+- Real-time applications  
+- Backend services  
 
 ---
