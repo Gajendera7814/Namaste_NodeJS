@@ -131,7 +131,7 @@ Example:
 const fs = require('fs');
 
 fs.readFile('file.txt', 'utf8', (err, data) => {
- console.log(data);
+    console.log(data);
 });
 ```
 
@@ -157,11 +157,11 @@ Example:
 const fs = require("fs");
 
 fs.readFile("file.txt", "utf8", (err, data) => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(data);
-  }
+    if (err) {
+        console.log(err);
+    } else {
+        console.log(data);
+    }
 });
 ```
 
@@ -173,12 +173,12 @@ fs.readFile("file.txt", "utf8", (err, data) => {
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.write("Hello from Node.js");
-  res.end();
+    res.write("Hello from Node.js");
+    res.end();
 });
 
 server.listen(3000, () => {
-  console.log("Server running on port 3000");
+    console.log("Server running on port 3000");
 });
 ```
 
@@ -196,15 +196,3 @@ It is a **runtime environment** that allows JavaScript to run **outside the brow
 
 ---
 
-## Applications of Node.js
-
-Node.js is commonly used for:
-
-* Web servers
-* REST APIs
-* Real-time chat applications
-* Streaming services
-* Microservices
-* Backend systems
-
----
